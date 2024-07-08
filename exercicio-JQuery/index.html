@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/dashed-line-airplane-route-free-png.png" alt="aviao">
+            <h1>LISTA DE TAREFAS</h1>
+            <h2>Antes de viajar</h2>
+            <div id="btn">
+                <button type="button" id="button-1">
+                    <span class="button__text">Add Tarefa</span>
+                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+                </button>
+        </header>
+        <section>
+            <form>
+                <input type="text" placeholder="Adicionar Tarefas..." id="add-tarefa" required>
+                <button type="submit" id="button-2">+</button>
+            </form>
+            <ul>
+            </ul>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!--                
+                <li>
+                    <label >
+                        <input type="checkbox" name="Tarefas" class="checked"  >
+                        <span id="item">Organizar</span>
+                        <button type="submit" id="button-3">X</button>
+                    </label>
+                </li>
+-->
