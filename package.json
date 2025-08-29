@@ -1,0 +1,16 @@
+{
+  "name": "exercicio_cypress",
+  "version": "1.0.0",
+  "description": "https://ebac-agenda-contatos-tan.vercel.app/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
